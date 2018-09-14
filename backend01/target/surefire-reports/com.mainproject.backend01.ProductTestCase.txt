@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mainproject.backend01.ProductTestCase
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.442 s - in com.mainproject.backend01.ProductTestCase
