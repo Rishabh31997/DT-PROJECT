@@ -81,30 +81,29 @@ public class SupplierController {
 	}
 
 	
-	/*@RequestMapping(value="deletecategory/{categoryId}",method=RequestMethod.GET)
-	public String SubmitdeleteProduct(@PathVariable("categoryId")int catId,ModelMap map){
+	@RequestMapping(value="admin/deletesupplier/{supplierId}",method=RequestMethod.GET)
+	public String SubmitdeleteSupplier(@PathVariable("supplierId")int supId,ModelMap map){
 	
-		System.out.println("CATEGORY ID ------>"+catId);
-		
-		Category rishabh=catObj.getCategory(catId);
-		rishabh.setCategory_isactive("NOT ACTIVE");
-		boolean r=catObj.updateCategory(rishabh);
 		
 		
-		List<Category> categories=catObj.category(); 
-		map.addAttribute("catList", categories);
+		Supplier rishabh=suppObj.getSupplier(supId);
+		rishabh.setIs_active("NOT ACTIVE");
+		boolean r=suppObj.updateSupplier(rishabh);
+		
+		
+		List<Supplier> suppliers=suppObj.supplier(); 
+		map.addAttribute("suppList", suppliers);
 		
 		
 		if(r==true){
-			map.addAttribute("msg","Category Deleted Succesfully");
-			return "ViewAllCategories";
+			map.addAttribute("msg","Supplier Deleted Succesfully");
+			return "ViewAllSuppliers";
 		}
 		else{
-			map.addAttribute("msg","Category Not Deleted Succesfully");
+			map.addAttribute("msg","Supplier Not Deleted Succesfully");
 			return "Failure";
 		}	
-		  }*/
-		
+		  }
 
 
 	

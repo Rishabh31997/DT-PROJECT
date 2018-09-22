@@ -1,7 +1,6 @@
 package com.mainproject.backend01;
 
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 
@@ -13,7 +12,6 @@ import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import com.mainproject.backend01.daos.UserDAO;
-import com.mainproject.backend01.daos.UserDAOimpl;
 import com.mainproject.backend01.models.Address;
 import com.mainproject.backend01.models.User;
 
@@ -98,7 +96,7 @@ public class UserTestCase {
 	assertTrue("User Not Added Succesfully",userDaoObj.addUser(user2));
 	}
 	
-	@Test
+	/*@Test
 	@Ignore
 	public void getUserByIdTest(){
 		
@@ -110,7 +108,7 @@ public class UserTestCase {
 		assertNull("User Not Found",user);
 		
 	}
-	
+	*/
 	@Test
 	public void viewAll(){
 		

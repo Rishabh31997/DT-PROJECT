@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mainproject.backend01.CategoryTestCase" time="2.456" tests="4" errors="0" skipped="3" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mainproject.backend01.CategoryTestCase" time="2.897" tests="4" errors="0" skipped="3" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\JDK1.8.0_172\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\rishabh\AppData\Local\Temp\surefire3579331942896734235\surefirebooter5775326859336228113.jar C:\Users\rishabh\AppData\Local\Temp\surefire3579331942896734235 2018-09-11T12-38-17_670-jvmRun1 surefire4782255253598872384tmp surefire_09128296413414575866tmp"/>
+    <property name="sun.java.command" value="C:\Users\rishabh\AppData\Local\Temp\surefire3795214575029181840\surefirebooter4489752407778232638.jar C:\Users\rishabh\AppData\Local\Temp\surefire3795214575029181840 2018-09-22T08-18-21_273-jvmRun1 surefire2225726103411899378tmp surefire_01194929041300956675tmp"/>
     <property name="surefire.test.class.path" value="F:\Rishabh\ProjectPractice\backend01\target\test-classes;F:\Rishabh\ProjectPractice\backend01\target\classes;C:\Users\rishabh\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\rishabh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\rishabh\.m2\repository\com\h2database\h2\1.4.197\h2-1.4.197.jar;C:\Users\rishabh\.m2\repository\org\springframework\spring-core\4.1.6.RELEASE\spring-core-4.1.6.RELEASE.jar;C:\Users\rishabh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rishabh\.m2\repository\org\springframework\spring-context\4.1.6.RELEASE\spring-context-4.1.6.RELEASE.jar;C:\Users\rishabh\.m2\repository\org\springframework\spring-aop\4.1.6.RELEASE\spring-aop-4.1.6.RELEASE.jar;C:\Users\rishabh\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\rishabh\.m2\repository\org\springframework\spring-beans\4.1.6.RELEASE\spring-beans-4.1.6.RELEASE.jar;C:\Users\rishabh\.m2\repository\org\springframework\spring-expression\4.1.6.RELEASE\spring-expression-4.1.6.RELEASE.jar;C:\Users\rishabh\.m2\repository\org\springframework\spring-orm\4.1.6.RELEASE\spring-orm-4.1.6.RELEASE.jar;C:\Users\rishabh\.m2\repository\org\springframework\spring-jdbc\4.1.6.RELEASE\spring-jdbc-4.1.6.RELEASE.jar;C:\Users\rishabh\.m2\repository\org\springframework\spring-tx\4.1.6.RELEASE\spring-tx-4.1.6.RELEASE.jar;C:\Users\rishabh\.m2\repository\org\hibernate\hibernate-core\4.1.6.Final\hibernate-core-4.1.6.Final.jar;C:\Users\rishabh\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\rishabh\.m2\repository\org\jboss\logging\jboss-logging\3.1.0.GA\jboss-logging-3.1.0.GA.jar;C:\Users\rishabh\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.1_spec\1.0.0.Final\jboss-transaction-api_1.1_spec-1.0.0.Final.jar;C:\Users\rishabh\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\rishabh\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.1.Final\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\rishabh\.m2\repository\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;C:\Users\rishabh\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.1.Final\hibernate-commons-annotations-4.0.1.Final.jar;C:\Users\rishabh\.m2\repository\org\springframework\spring-web\4.1.6.RELEASE\spring-web-4.1.6.RELEASE.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\rishabh"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\rishabh\AppData\Local\Temp\surefire3579331942896734235\surefirebooter5775326859336228113.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rishabh\AppData\Local\Temp\surefire3795214575029181840\surefirebooter4489752407778232638.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\JDK1.8.0_172\jre\lib\resources.jar;C:\Program Files\Java\JDK1.8.0_172\jre\lib\rt.jar;C:\Program Files\Java\JDK1.8.0_172\jre\lib\sunrsasign.jar;C:\Program Files\Java\JDK1.8.0_172\jre\lib\jsse.jar;C:\Program Files\Java\JDK1.8.0_172\jre\lib\jce.jar;C:\Program Files\Java\JDK1.8.0_172\jre\lib\charsets.jar;C:\Program Files\Java\JDK1.8.0_172\jre\lib\jfr.jar;C:\Program Files\Java\JDK1.8.0_172\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,78 +62,102 @@
   </properties>
   <testcase name="getProductsList" classname="com.mainproject.backend01.CategoryTestCase" time="0">
     <skipped/>
-    <system-err><![CDATA[Sep 11, 2018 12:38:23 PM org.springframework.context.annotation.AnnotationConfigApplicationContext prepareRefresh
-INFO: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7bb11784: startup date [Tue Sep 11 12:38:23 IST 2018]; root of context hierarchy
-Sep 11, 2018 12:38:23 PM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+    <system-err><![CDATA[Sep 22, 2018 8:18:22 AM org.springframework.context.annotation.AnnotationConfigApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7bb11784: startup date [Sat Sep 22 08:18:22 IST 2018]; root of context hierarchy
+Sep 22, 2018 8:18:23 AM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
 INFO: Loaded JDBC driver: org.h2.Driver
-Sep 11, 2018 12:38:23 PM org.hibernate.annotations.common.Version <clinit>
+Sep 22, 2018 8:18:23 AM org.hibernate.annotations.common.Version <clinit>
 INFO: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-Sep 11, 2018 12:38:23 PM org.hibernate.Version logVersion
+Sep 22, 2018 8:18:23 AM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate Core {4.1.6.Final}
-Sep 11, 2018 12:38:23 PM org.hibernate.cfg.Environment <clinit>
+Sep 22, 2018 8:18:23 AM org.hibernate.cfg.Environment <clinit>
 INFO: HHH000206: hibernate.properties not found
-Sep 11, 2018 12:38:23 PM org.hibernate.cfg.Environment buildBytecodeProvider
+Sep 22, 2018 8:18:23 AM org.hibernate.cfg.Environment buildBytecodeProvider
 INFO: HHH000021: Bytecode provider name : javassist
-Sep 11, 2018 12:38:24 PM org.hibernate.dialect.Dialect <init>
+Sep 22, 2018 8:18:23 AM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-Sep 11, 2018 12:38:24 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+Sep 22, 2018 8:18:24 AM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
 INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
-Sep 11, 2018 12:38:24 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
 INFO: HHH000397: Using ASTQueryTranslatorFactory
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
 INFO: HHH000228: Running hbm2ddl schema update
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
 INFO: HHH000102: Fetching database metadata
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
 INFO: HHH000396: Updating schema
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000261: Table found: TEST.PUBLIC.ADDRESS
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
-INFO: HHH000037: Columns: [pincode, city, housenumber, locality, state, isbilling, userid, addressid]
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
-INFO: HHH000108: Foreign keys: [fk1ed033d4cb32d4e1]
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
-INFO: HHH000126: Indexes: [fk1ed033d4cb32d4e1_index_e, primary_key_e]
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [pincode, user_email, city, housenumber, locality, state, isbilling, userid, email, addressid]
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fk1ed033d42c9ee57]
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [primary_key_2c0, fk1ed033d42c9ee57_index_e]
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: TEST.PUBLIC.CART
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [cartid, customerid]
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: []
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [primary_key_1f]
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000261: Table found: TEST.PUBLIC.CATEGORY
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000037: Columns: [categorydesc, categoryname, category_isactive, categoryid]
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000108: Foreign keys: []
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000126: Indexes: [primary_key_fa]
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: TEST.PUBLIC.ITEMS
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [itemid, quantity, cutomerid, productid, price, cart_cartid]
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fk43af7a01334ca49, fk43af7a089b2304a]
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [primary_key_4, fk43af7a01334ca49_index_4, fk43af7a089b2304a_index_4]
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: TEST.PUBLIC.ORDERTABLE
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [cvv, nameoncard, month, orderid, year, totalprice, cardnumber, email, addressid]
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fka34401402c9ee57, fka34401405410bb13]
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [fka34401402c9ee57_index_4, fka34401405410bb13_index_4, primary_key_4b]
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000261: Table found: TEST.PUBLIC.PRODUCT
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000037: Columns: [quantity, is_active, imgname, productid, price, description, productname, supplier_supplierid, category_categoryid]
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000108: Foreign keys: [fk50c664cf21e900f6, fk50c664cf37562c68]
-Sep 11, 2018 12:38:24 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000126: Indexes: [primary_key_1, fk50c664cf21e900f6_index_1, fk50c664cf37562c68_index_1]
-Sep 11, 2018 12:38:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000261: Table found: TEST.PUBLIC.SUPPLIER
-Sep 11, 2018 12:38:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000037: Columns: [suppliername, supplierid, is_active, supplieraddress]
-Sep 11, 2018 12:38:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000108: Foreign keys: []
-Sep 11, 2018 12:38:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000126: Indexes: [primary_key_2e]
-Sep 11, 2018 12:38:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000261: Table found: TEST.PUBLIC.USER
-Sep 11, 2018 12:38:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
-INFO: HHH000037: Columns: [firstname, password, role, contactnumber, confirmpassword, userid, email, enabled, lastname]
-Sep 11, 2018 12:38:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [firstname, password, role, contactnumber, confirmpassword, email, enabled, lastname]
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000108: Foreign keys: []
-Sep 11, 2018 12:38:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
 INFO: HHH000126: Indexes: [primary_key_2]
-Sep 11, 2018 12:38:25 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+Sep 22, 2018 8:18:24 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
 INFO: HHH000232: Schema update complete
-Sep 11, 2018 12:38:25 PM org.springframework.orm.hibernate4.HibernateTransactionManager afterPropertiesSet
-INFO: Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2a3591c5] of Hibernate SessionFactory for HibernateTransactionManager
+Sep 22, 2018 8:18:25 AM org.springframework.orm.hibernate4.HibernateTransactionManager afterPropertiesSet
+INFO: Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@743cb8e0] of Hibernate SessionFactory for HibernateTransactionManager
 ]]></system-err>
   </testcase>
-  <testcase name="deleteProductById" classname="com.mainproject.backend01.CategoryTestCase" time="0.263"/>
-  <testcase name="addPtoduct" classname="com.mainproject.backend01.CategoryTestCase" time="0">
+  <testcase name="deleteProductById" classname="com.mainproject.backend01.CategoryTestCase" time="0.244"/>
+  <testcase name="addProduct" classname="com.mainproject.backend01.CategoryTestCase" time="0">
     <skipped/>
   </testcase>
   <testcase name="updateProductbyId" classname="com.mainproject.backend01.CategoryTestCase" time="0">

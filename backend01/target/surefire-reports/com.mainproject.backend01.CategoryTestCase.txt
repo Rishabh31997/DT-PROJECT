@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.mainproject.backend01.CategoryTestCase
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 2.456 s - in com.mainproject.backend01.CategoryTestCase
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 2.897 s - in com.mainproject.backend01.CategoryTestCase

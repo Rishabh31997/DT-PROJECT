@@ -17,7 +17,7 @@ public class ProductTestCase {
 
 	static CategoryDAO categoryObj;
 	static ProductDAO proObj;
-	private Category cat;
+	
 	
 	@BeforeClass
 	public static void init(){
@@ -30,33 +30,37 @@ public class ProductTestCase {
 	}
 	
 	@Test
-	@Ignore
+	
 	public void addProduct(){
 		Product pro=new Product();
-		pro.setProductName("SurfExcel");
-		pro.setDescription("Dag ache hai");
-		pro.setPrice(150);
-		pro.setQuantity(10000);
+		pro.setProductName("H&M shirt");
+		pro.setDescription("Mens Black Shirt");
+		pro.setPrice(1500);
+		pro.setQuantity(25);
 		
 
 		Product pro1=new Product();
-		pro1.setProductName("Nirma");
-		pro1.setDescription("Doodh si saffedi Nirma se ayye rangin kapda bhi khil khil jaye");
-		pro1.setPrice(125);
-		pro1.setQuantity(10000);
+		pro1.setProductName("Denim Jeans");
+		pro1.setDescription("U.S POLO DENIME BLACK JEANS");
+		pro1.setPrice(1250);
+		pro1.setQuantity(100);
 		
 
 		Product pro2=new Product();
-		pro2.setProductName("Colgate");
-		pro2.setDescription("Kya apke toothpaste mein namak hain");
-		pro2.setPrice(150);
-		pro2.setQuantity(10000);
+		pro2.setProductName("White Blazer");
+		pro2.setDescription("BlackBerry Mens Casual Blazer");
+		pro2.setPrice(4999);
+		pro2.setQuantity(60);
 		
+		Category cat=categoryObj.getCategory(17);
+		
+		pro.setCat(cat);
 		pro1.setCat(cat);
-			
+		pro2.setCat(cat);
+		
 		assertTrue("Category Added Succesfully",proObj.addProduct(pro));
-		assertTrue("Category Added Succesfully",proObj.addProduct(pro));
-		assertTrue("Category Added Succesfully",proObj.addProduct(pro));
+		assertTrue("Category Added Succesfully",proObj.addProduct(pro1));
+		assertTrue("Category Added Succesfully",proObj.addProduct(pro2));
 		
 		
 	}

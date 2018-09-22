@@ -6,6 +6,7 @@ import java.util.Set;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
@@ -68,6 +69,7 @@ public class SupplierDAOimpl implements SupplierDAO {
 	public List<Supplier> supplier() {
 		Session session=sessionFactory.getCurrentSession();
 		Criteria s=session.createCriteria(Supplier.class);
+		s.add(Restrictions.eq("is_active", "Active"));
 		List<Supplier> supplierList=s.list();
 		return  supplierList;
 	}

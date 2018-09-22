@@ -4,6 +4,8 @@ import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
 import java.util.List;
 
+
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -82,24 +84,25 @@ public class ProductController {
 	
 	}
 */	
-	@RequestMapping(value="admin/viewAllProducts",method=RequestMethod.GET)
+	@RequestMapping(value="viewAllProducts",method=RequestMethod.GET)
 	public String listProducts(ModelMap map){
+		System.out.println("I AM VIEW ALL PRODUCT CONTOLLER");
+		
 		List<Product> pros=pro.listProducts(); 
 		map.addAttribute("productList", pros);
 		return "ViewALL";
+
 	}
 
-	/*@RequestMapping(value="deleteproduct",method=RequestMethod.GET)
-	public String deleteProduct(ModelMap map){
-		return "delete";
-		}*/
-		
+
 	
 	@RequestMapping(value="admin/deleteproduct/{productId}",method=RequestMethod.GET)
 	public String SubmitdeleteProduct(@PathVariable("productId")int pId,ModelMap map){
 	
 		System.out.println("PRODUCT ID ------>"+pId);
-		//pro.deleteProduct(proId);
+		System.out.println("I AM DELETE PRODUCT CONTOLLER");
+		
+		
 		Product rishabh=pro.getProduct(pId);
 		rishabh.setIs_active("NOT ACTIVE");
 		
@@ -119,14 +122,6 @@ public class ProductController {
 			return "Failure";
 		}	
 		  }
-		
-/*
-	@RequestMapping(value="updateProduct",method=RequestMethod.GET)
-	public String updateProduct(ModelMap map){
-		map.addAttribute("updateProduct",new Product());
-		return"update";
-		
-		}*/
 
 	@RequestMapping(value="admin/submitproduct",method=RequestMethod.POST)
 	public String SubmitUpdateProduct(HttpServletRequest request,ModelMap map,
@@ -169,7 +164,9 @@ public class ProductController {
 	
 	if(true){
 		System.out.println("product added sucessfully");
-		return"index";
+		map.addAttribute("msg","Product Added Succesfully");
+		return "redirect:/viewAllProducts";
+		
 	}
 	else{
 		System.out.println("Product not added sucessfully");
@@ -179,7 +176,51 @@ public class ProductController {
 	
 	}
 			
+	
+	@RequestMapping(value="/getProduct/{category}",method=RequestMethod.GET)
+	public ModelAndView getProductsByCategory(@PathVariable("category")String cat){
+		System.out.println("Category : "+cat);
+		ModelAndView mv=new ModelAndView("ViewALL");
+		List<Product>pro2=pro.getProByCat(cat);
+		mv.addObject("productList",pro2);
+		
+		return mv;
+	}
+	
+	/*
+	@RequestMapping(value="details/{productId}",method=RequestMethod.GET)
+	public ModelAndView getProductetails(@PathVariable()int pId,ModelMap map){
+		
+		System.out.println("I AM PRODUCT DETAILS CONTOLLER");
+		ModelAndView mv=new ModelAndView("Sucess");
+		Product product=pro.getProduct(pId);
+		System.out.println("hello"+product.getProductName()+product.getPrice());
+		mv.addObject("productDetails",pro);
+		return mv;
+		
+		
+	}
+	*/
+	
+	
+	@RequestMapping(value="detailsproduct/{productId}",method=RequestMethod.GET)
+	public String getProductDetails(@PathVariable("productId")int pId,ModelMap map){
+	
+		System.out.println("PRODUCT ID ------>"+pId);
+		System.out.println("I AM PRODUCT DETAILS CONTOLLER");
+		
+		
+		Product product=pro.getProduct(pId);
+		
+		System.out.println("");
+		
+		map.addAttribute("prod", product);
+				
+		return "ProductDetails";
+	
+	
 		}
+}
 	
 	
 

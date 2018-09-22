@@ -30,7 +30,7 @@ public class CategoryTestCase {
 	
 	@Test
 	@Ignore
-	public void addPtoduct(){
+	public void addProduct(){
 		Product pro=new Product();
 		pro.setProductName("SurfExcel");
 		pro.setDescription("Dag ache hai");

@@ -28,21 +28,6 @@ public class UserDAOimpl implements UserDAO {
 	}
 
 	@Override
-	public User userGetUserById(int id) {
-		try{
-		Session session=sessionFactory.getCurrentSession();
-		User byid= (User) session.get(User.class, id);
-		System.out.println(byid);
-		return byid;
-		}
-		catch(Exception e){
-			e.printStackTrace();
-			return null;
-		}
-
-	}
-
-	@Override
 	public boolean addUser(User user) {
 		try{
 		Session session=sessionFactory.getCurrentSession();

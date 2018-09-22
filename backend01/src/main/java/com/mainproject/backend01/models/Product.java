@@ -1,3 +1,4 @@
+
 package com.mainproject.backend01.models;
 
 import javax.persistence.*;
@@ -18,7 +19,7 @@ public class Product {
 	private int quantity;
 	private String is_active;
 	
-	@ManyToOne(fetch=FetchType.LAZY,cascade=CascadeType.ALL)
+	@ManyToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
 	private Category category;
 	
 	@ManyToOne(fetch=FetchType.LAZY,cascade=CascadeType.ALL)

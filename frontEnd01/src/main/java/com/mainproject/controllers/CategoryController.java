@@ -62,7 +62,8 @@ public class CategoryController {
 		
 		boolean cat1=catObj.addCategory(cat);
 		if(cat1==true){
-			return "Sucess";
+			map.addAttribute("msg","Category Added Succesfully");
+			return "redirect:/admin/viewAllCategory";
 		}
 		else{
 			return"Failure";
@@ -81,7 +82,7 @@ public class CategoryController {
 
 	
 	@RequestMapping(value="admin/deletecategory/{categoryId}",method=RequestMethod.GET)
-	public String SubmitdeleteProduct(@PathVariable("categoryId")int catId,ModelMap map){
+	public String SubmitdeleteCategory(@PathVariable("categoryId")int catId,ModelMap map){
 	
 		System.out.println("CATEGORY ID ------>"+catId);
 		

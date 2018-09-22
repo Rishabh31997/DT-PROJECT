@@ -25,9 +25,10 @@ public class Address {
 	private int pincode;
 	private boolean isBilling;
 	
-	@ManyToOne(fetch=FetchType.LAZY,cascade=CascadeType.ALL)
-	@JoinColumn(name="userId")
+	@ManyToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
+	@JoinColumn(name="email")
 	private User user;
+	
 	
 	public User getUser() {
 		return user;

@@ -12,13 +12,12 @@ import javax.persistence.OneToMany;
 @Entity
 public class User {
 	
-	@Id
-	@GeneratedValue
-	private int userID;
-	
 	private String firstName;
 	private String lastName;
+	
+	@Id
 	private String email;
+	
 	private long contactNumber;
 	private String role;
 	private String password;
@@ -26,19 +25,11 @@ public class User {
 	private String confirmPassword;
 	
 
-	@OneToMany(fetch=FetchType.LAZY,mappedBy ="user",cascade=CascadeType.ALL)
+	@OneToMany(fetch=FetchType.EAGER,mappedBy ="user",cascade=CascadeType.ALL)
 	private Set<Address> address=new HashSet<Address>();
 
 
-	public int getUserID() {
-		return userID;
-	}
-
-
-	public void setUserID(int userID) {
-		this.userID = userID;
-	}
-
+	
 
 	public String getFirstName() {
 		return firstName;

@@ -3,8 +3,16 @@ package com.mainproject.backend01.daos;
 import java.util.List;
 import java.util.Set;
 
+
+
+
+
+
+import javax.persistence.TypedQuery;
+
 import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
@@ -90,13 +98,17 @@ public class ProductDAOimpl implements ProductDAO {
 		
 	}
 
+
 	@Override
-	public Product getProByCat(int categoryId) {
+	public List<Product> getProByCat(String categoryName) {
 		Session session=sessionFactory.getCurrentSession();
-		Product pro3=(Product)session.get(Category.class, categoryId);
-		return pro3;
-		
-	}
+		Query query = 
+				session.createQuery("From com.mainproject.backend01.models.Product where category.categoryName=:CN");
+		query.setParameter("CN", categoryName);
+		List<Product> productList = query.list();
+	
+		return productList;	
+		}
 
 	
 
